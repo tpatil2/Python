@@ -10,7 +10,6 @@ BUGS FOUND
 
 If values of wide hign and x are less than or equal to zero then
 these values are set to Default values
-
 but This doesn't consider the case when high with and x are equal to 1
 if it accepts 1 then following problems will occure
 
