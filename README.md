@@ -18,12 +18,11 @@
 		inside = false;
 	else                           
 		inside = true;
-
 	return inside;
 	}
 	</pre>
 	
-T	his function checks for given location
+	This function checks for given location
 	if it inside board returns inside = true else returns false
 
 	but if input 'w' is out side board it sets value of inside (w>=width || w<0) to false and it
@@ -42,10 +41,10 @@ T	his function checks for given location
 	**LINE NO 9:**
 	This doesn't consider the case when high with and x are equal to 1
 	if it accepts 1 then following problems will occure
-
-		* If dimention is det to 1x1 then  only one player can play
-		* First player will always win because value of towin is 1
-		* second player will never get chance to play.
+		
+		- If dimention is det to 1x1 then  only one player can play
+		- First player will always win because value of towin is 1
+		- second player will never get chance to play.
 
 
 * BUG 3
