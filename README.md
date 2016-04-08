@@ -5,7 +5,7 @@
 - BUG 1
 
 
-## In bool ConnectX::inBounds(int w, int h)
+**In bool ConnectX::inBounds(int w, int h)**
 <pre>
 bool ConnectX::inBounds(int w, int h)
 {
@@ -33,9 +33,8 @@ given location is out of board. So this function doesn't work properly.
 
 
 - BUG 2
--------------------
 
-## In ConnectX::ConnectX(int wide, int high, int x)
+**In ConnectX::ConnectX(int wide, int high, int x)**
 
 If values of wide hign and x are less than or equal to zero then
 these values are set to Default values
@@ -49,20 +48,18 @@ if it accepts 1 then following problems will occure
 - second player will never get chance to play.
 
 
-
 - BUG 3
---------------------
-## In function  void ConnectX::placePiece(int column)
+
+**In function  void ConnectX::placePiece(int column)**
 
 for bad input value of column -1 it gives codedump
 *** Error in `./ConnectXTest': free(): invalid next size (fast): 0x000000000181a5f0 ***
 Aborted (core dumped)
 
 
-
 - BUG 4
-----------------------
-## ConnectX::ConnectX(8,8,100)
+
+**ConnectX::ConnectX(8,8,100)**
 
 - this function accepts value of 'towin' greater than the size of board
 - length of 'towin'  must be less than or equal to Diagonal length of board
