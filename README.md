@@ -5,7 +5,7 @@
 * BUG 1
 
 
-..* **In bool ConnectX::inBounds(int w, int h)**
+	- **In bool ConnectX::inBounds(int w, int h)**
 <pre>
 bool ConnectX::inBounds(int w, int h)
 {
