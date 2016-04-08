@@ -10,16 +10,15 @@ BUG 1
 bool ConnectX::inBounds(int w, int h)
 {
 	bool inside;
-	if( w>=width || w<0 )
-		inside = false;-------------|
-	else                          	    |-------|
-		inside = true;--------------|       |
-                                                    |
-                                                    |--there is conflict in
-	if( h<0 || h>=height )                      |  value of 'inside'
-		inside = false;-------------|       |  reset to true or false
-	else                                |-------|
-		inside = true;--------------|
+	if( w>=width || w<0 )  
+		inside = false;
+	else                          	   
+		inside = true;
+ 
+	if( h<0 || h>=height )                      
+		inside = false;
+	else                           
+		inside = true;
 
 	return inside;
 }
