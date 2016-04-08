@@ -23,9 +23,9 @@
 	</pre>
 	
 	This function checks for given location
-	if it inside board returns inside = true else returns false
+	if it inside board returns 'inside' = true else returns false
 
-	but if input 'w' is out side board it sets value of inside (w>=width || w<0) to false and it
+	but if input 'w' is out side board it sets value of 'inside' (w>=width || w<0) to false and it
 	checks for input 'h' if its inside board then it sets value of 'inside'=false, but practically
 	given location is out of board. So this function doesn't work properly.
 
