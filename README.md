@@ -6,7 +6,7 @@ BUGS FOUND
 BUG 1
 ---------------------
 ## In bool ConnectX::inBounds(int w, int h)
-
+[
 bool ConnectX::inBounds(int w, int h)
 {
 	bool inside;
@@ -23,7 +23,7 @@ bool ConnectX::inBounds(int w, int h)
 
 	return inside;
 }
-
+]
 This function checks for given location
 if it inside board returns inside = true else returns false
 
