@@ -21,7 +21,7 @@
 	return inside;
 	}
 	</pre>
-	
+
 	This function checks for given location
 	if it inside board returns 'inside' = true else returns false
 
@@ -41,7 +41,7 @@
 	**LINE NO 9:**
 	This doesn't consider the case when high with and x are equal to 1
 	if it accepts 1 then following problems will occure
-		
+
 		- If dimention is det to 1x1 then  only one player can play
 		- First player will always win because value of towin is 1
 		- second player will never get chance to play.
