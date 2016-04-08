@@ -1,10 +1,9 @@
 
 
 -TEJAS PATIL
-==============
 
 
--BUG 1
+BUG 1
 ---------------------
 ## In bool ConnectX::inBounds(int w, int h)
 <pre>
@@ -34,7 +33,7 @@ given location is out of board. So this function doesn't work properly.
 
 
 
--BUG 2
+BUG 2
 -------------------
 
 ## In ConnectX::ConnectX(int wide, int high, int x)
@@ -52,7 +51,7 @@ if it accepts 1 then following problems will occure
 
 
 
--BUG 3
+BUG 3
 --------------------
 ## In function  void ConnectX::placePiece(int column)
 
@@ -62,7 +61,7 @@ Aborted (core dumped)
 
 
 
--BUG 4
+BUG 4
 ----------------------
 ## ConnectX::ConnectX(8,8,100)
 
