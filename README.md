@@ -1,10 +1,10 @@
 
-
-
-- TEJAS PATIL
-
-* BUG 1
+ Tejas Patil
 ---------------------
+
+- BUG 1
+
+
 ## In bool ConnectX::inBounds(int w, int h)
 <pre>
 bool ConnectX::inBounds(int w, int h)
