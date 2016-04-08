@@ -5,7 +5,7 @@
 * BUG 1
 
 
-**In bool ConnectX::inBounds(int w, int h)**
+..* **In bool ConnectX::inBounds(int w, int h)**
 <pre>
 bool ConnectX::inBounds(int w, int h)
 {
@@ -32,7 +32,7 @@ given location is out of board. So this function doesn't work properly.
 
 
 
-- BUG 2
+* BUG 2
 
 **In ConnectX::ConnectX(int wide, int high, int x)**
 
@@ -43,12 +43,12 @@ these values are set to Default values
 This doesn't consider the case when high with and x are equal to 1
 if it accepts 1 then following problems will occure
 
-..- If dimention is det to 1x1 then  only one player can play
-..- First player will always win because value of towin is 1
-..- second player will never get chance to play.
+..* If dimention is det to 1x1 then  only one player can play
+..* First player will always win because value of towin is 1
+..* second player will never get chance to play.
 
 
-- BUG 3
+* BUG 3
 
 **In function  void ConnectX::placePiece(int column)**
 
@@ -57,9 +57,9 @@ for bad input value of column -1 it gives codedump
 Aborted (core dumped)
 
 
-- BUG 4
+* BUG 4
 
 **ConnectX::ConnectX(8,8,100)**
 
-..- this function accepts value of 'towin' greater than the size of board
-..- length of 'towin'  must be less than or equal to Diagonal length of board
+..* this function accepts value of 'towin' greater than the size of board
+..* length of 'towin'  must be less than or equal to Diagonal length of board
