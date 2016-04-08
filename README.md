@@ -3,7 +3,7 @@
 
 - TEJAS PATIL
 
-*BUG 1
+* BUG 1
 ---------------------
 ## In bool ConnectX::inBounds(int w, int h)
 <pre>
