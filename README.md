@@ -1,8 +1,8 @@
 
 # Python
 
-
-<a href='https://travis-ci.org/sebdah/git-pylint-commit-hook'><img src='https://secure.travis-ci.org/<github-username>/<github-project-name>.png?branch=<branch-name>'></a>
+.. image:: https://travis-ci.org/simplejson/simplejson.svg?branch=master
+    :target: https://travis-ci.org/simplejson/simplejson
 
 
 ## Sample Python Exmple
