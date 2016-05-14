@@ -14,4 +14,4 @@ before_install:
     - pip install pytest pytest-cov
 
 script:
-  - python lists.py
+  - python lits.py
