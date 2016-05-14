@@ -1,12 +1,8 @@
 language: python
 
 python:
-  - "2.6"
   - "2.7"
   - "3.2"
-  - "3.3"
-  - "3.4"
-  - "3.5"
   - "3.5-dev" # 3.5 development branch
   - "nightly" # currently points to 3.6-dev
 
@@ -14,4 +10,7 @@ before_install:
     - pip install pytest pytest-cov
 
 script:
-  - python lits.py
+  - python litss.py
+  - python conditionals.py
+  - python hellopython.py
+  - python tuples.py
