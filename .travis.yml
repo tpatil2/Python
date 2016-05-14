@@ -10,7 +10,4 @@ before_install:
     - pip install pytest pytest-cov
 
 script:
-  - python litss.py
-  - python conditionals.py
-  - python hellopython.py
-  - python tuples.py
+  - python litss.py conditionals.py hellopython.py tuples.py
