@@ -9,7 +9,8 @@ team_list = ['India', 'Pakistan', 'West Indies', 'Shrilanka']
 
 print(team_list)
 print(team_list[2])
-print(team_list[1:3],"\n")# print elements between given range
+team_list[1] = "over"
+print(team_list[1:3],"\n")# print elements between given range not include index 3
 
 
 
@@ -54,5 +55,15 @@ print(len(new_combined))
 print(max(new_combined))
 print(min(new_combined))
 
+print('before delete')
+print(team_list)
+print('delete 3 element in list')
+del (team_list[3])
+print(team_list)
 
+integer_list= ['1','2','44','0','-100','100','-999','7']
+print(integer_list,'\n')
+integer_list.sort()
+print(integer_list)
+print(max(integer_list))
 
