@@ -4,7 +4,7 @@ import os
 
 
 
-team_list = ['India', 'Pakistan', 'West Indies', 'Shrilanka']
+team_list = ['India', 'Mumbai', 'West Indies', 'Shrilanka']
 
 
 print(team_list)
