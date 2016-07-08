@@ -38,3 +38,5 @@ print(quote,multiline_quote)
 
 print("This is first line",end='\n'*5)
 print("newline")
+
+#print("%s %s %s" % ('begin', quote,multiline_quote))
