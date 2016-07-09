@@ -52,7 +52,40 @@ class Animal:
                                                               self.__height,
                                                               self.__weight,
                                                               self.__sound)
-
-
 cat = Animal( 'Whiskers',33,10,'Meow')
 print(cat.toString())
+
+
+class Dog(Animal):
+    __owner = ""
+
+    def __init__(self,name,height,weight,sound,owner):
+        self.__owner = owner
+        super(Dog, self).__init__(name,height,weight,sound)
+
+    def set_owner(self,owner):
+        self.__owner = owner
+
+    def get_owner(self):
+        return self.__owner
+
+    def get_type(self):
+        print("Dog")
+
+    def toString(self):
+        return "{} is {} cm tall and {} kg and say {} His owner is {}".format(self.get_name(),
+                                                                              self.get_height(),
+                                                                              self.get_weight(),
+                                                                              self.get_sound(),
+                                                                              self.__owner)
+    def multiple_sounds(self, how_many=None):
+        if how_many is None :
+            print(self.get_sound())
+        else:
+            print(self.get_sound() * how_many)
+
+tommy = Dog("Tommy",22,30,"ruff","Tejas")
+print(tommy.toString())
+
+tommy.multiple_sounds(10)
+
