@@ -25,6 +25,7 @@ for x in range(0,3):
 #while
 
 num=0
+
 while(num!=25):
     print(num)
     num=num+1
