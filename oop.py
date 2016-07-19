@@ -16,6 +16,7 @@ class Animal:
         self.__weight = weight
         self.__sound = sound
 
+
     #function inside class for set and get the values
 
     def set_name(self,name):
@@ -88,4 +89,3 @@ tommy = Dog("Tommy",22,30,"ruff","Tejas")
 print(tommy.toString())
 
 tommy.multiple_sounds(10)
-
