@@ -10,6 +10,7 @@ team_india={'Capton':'Dhoni',
             'Baller':'Bumra',
             'Spinner':'Jadeja'}
 
+
 print('Team India Keys',team_india.keys())
 
 print('Team India Values',team_india.values())
