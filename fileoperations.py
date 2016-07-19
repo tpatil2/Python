@@ -17,6 +17,7 @@ test_file.write(bytes("My name is Tejas Patil\n",'UTF-8'))
 test_file.close()
 
 
+
 #read from file
 
 test_file = open("myfile.txt","r+")
