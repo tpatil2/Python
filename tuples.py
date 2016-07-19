@@ -16,6 +16,7 @@ print(new_list)
 my_list=['a','v','g']
 print(my_list)
 
+
 new_tuple=tuple(my_list)
 print(new_tuple)
 
