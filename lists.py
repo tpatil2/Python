@@ -14,6 +14,7 @@ print(team_list[1:3],"\n")# print elements between given range not include index
 
 
 
+
 Players_India=['Kohli','Dhoni','sharma','Raina','yuvraj']
 
 print(Players_India,'\n')
@@ -66,4 +67,3 @@ print(integer_list,'\n')
 integer_list.sort()
 print(integer_list)
 print(max(integer_list))
-
