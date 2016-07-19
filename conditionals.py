@@ -6,6 +6,7 @@ import os
 # if else elif    ==  < > <= >=
 # logical conditions and or not
 
+
 age=17
 
 if age>21:
