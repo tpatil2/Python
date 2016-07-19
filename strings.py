@@ -13,6 +13,6 @@ print(long_string.isprintable())
 print(long_string.replace("i am","you are"))
 print(len(long_string))
 
+
 quote_list=long_string.split(" ")
 print(quote_list)
-
