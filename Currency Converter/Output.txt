@@ -1,0 +1,43 @@
+/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 "/Users/Tejas/my pythom/Python/Currency Converter/currencyConverter.py"
+Please enter you Choice
+ 1) USD to INR
+ 2) INR to USD
+Press Q to Exit
+Choice ? 1
+1
+-------------------------------------
+USD to INR
+ENTER AMOUT IN USD 22
+Amount after conversition is:
+Amont after Conversion $ 22.0 = 1428.46 Ruppes
+-------------------------------------
+Please enter you Choice
+ 1) USD to INR
+ 2) INR to USD
+Press Q to Exit
+Choice ? 2
+2
+-------------------------------------
+INR to USD
+ENTER AMOUT IN INR 66754654
+Amount after conversition is:
+Amont after Conversion Ruppes 66754654.0 = $ 1001319.810
+-------------------------------------
+Please enter you Choice
+ 1) USD to INR
+ 2) INR to USD
+Press Q to Exit
+Choice ? 4
+4
+-------------------------------------
+Please enter correct choice
+Please enter you Choice
+ 1) USD to INR
+ 2) INR to USD
+Press Q to Exit
+Choice ? Q
+Q
+-------------------------------------
+Please enter correct choice
+
+Process finished with exit code 0
