@@ -26,7 +26,7 @@ for f in os.listdir():
     #convert into double digit
     f_num=f_num.zfill(2)
 
-    new_name = '{}-{}-{}.{}'.format(f_num,f_auth,f_course,f_ext)
+    new_name = '{}-{}-{}{}'.format(f_num,f_auth,f_course,f_ext)
     print(new_name)
 
     os.rename(f,new_name)
