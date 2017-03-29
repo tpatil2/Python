@@ -1,0 +1,18 @@
+/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 "/Users/Tejas/my pythom/Python/Tip Calculater/tip_cal.py"
+Enter Total Bill Amount?
+100
+How mauh percent tip you wnat to give ?
+10% , 15%, 20% Enter any value
+24
+If you want to split amount Yes/No?
+yes
+how Many People?
+4
+==================================
+Original Bill is :  100.0
+tip  ampunt is :  24.0
+==================================
+Total Bill is :  124.0
+Individual Bill is 31.0
+
+Process finished with exit code 0
