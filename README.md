@@ -5,5 +5,5 @@
 
 ## Sample Python Exmple
 
-# This reposatory comtains some Sample Python scripts
+# This reposatory contains some Sample Python scripts
 
