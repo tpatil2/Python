@@ -5,4 +5,5 @@
 
 ## Sample Python Exmple
 
-Hello2
+# This reposatory comtains some Sample Python scripts
+
