@@ -1,0 +1,11 @@
+Tejass-MacBook-Pro:Python Tejas$ git add Currency\ Converter/ .
+Tejass-MacBook-Pro:Python Tejas$ git push origin master
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 2.01 KiB | 0 bytes/s, done.
+Total 9 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/tpatil2/Python.git
+   0167736..1aa7bf2  master -> master
+Tejass-MacBook-Pro:Python Tejas$
