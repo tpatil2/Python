@@ -10,9 +10,10 @@ print(os.getcwd()) #prints current working directory
 
 for f in os.listdir():
     #split file name and extension
-    f_name, f_ext = os.path.splitext(f)
+    f_name,f_ext = os.path.splitext(f)
 
-    #split f_name in three seperte strings
+    # split f_name in three seperte strings
+    #print(f_name)
 
     f_auth, f_course, f_num = f_name.split("-")
 
@@ -21,6 +22,7 @@ for f in os.listdir():
     print(f_course)
     print(f_num)
     '''
+
     #get rid of # at the begining
     f_num = f_num.strip()[1:]
     #convert into double digit
@@ -30,6 +32,3 @@ for f in os.listdir():
     print(new_name)
 
     os.rename(f,new_name)
-
-
-
