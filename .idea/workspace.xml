@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c10669d-f1eb-4fd8-9b3b-e5d5b06653c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String Operations/Jumble_letters.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String Operations/encryption.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python.iws" />
@@ -48,6 +48,7 @@
         <option value="$PROJECT_DIR$/String Operations/Remove_vowels.py" />
         <option value="$PROJECT_DIR$/String Operations/Swap_vowels.py" />
         <option value="$PROJECT_DIR$/String Operations/Jumble_letters.py" />
+        <option value="$PROJECT_DIR$/String Operations/encryption.py" />
       </list>
     </option>
   </component>
@@ -143,24 +144,7 @@
       <recent name="$PROJECT_DIR$/Send Text - Twilio" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Jumble_letters">
-    <configuration default="false" name="sendtext" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Send Text - Twilio/sendtext.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.encryption">
     <configuration default="false" name="creat_files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,6 +209,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String Operations/Jumble_letters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="encryption" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String Operations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String Operations/encryption.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -364,19 +365,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.sendtext" />
-      <item index="1" class="java.lang.String" itemvalue="Python.creat_files" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Remove_vowels" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Swap_vowels" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Jumble_letters" />
+      <item index="0" class="java.lang.String" itemvalue="Python.creat_files" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Remove_vowels" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Swap_vowels" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Jumble_letters" />
+      <item index="4" class="java.lang.String" itemvalue="Python.encryption" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Jumble_letters" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Swap_vowels" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Remove_vowels" />
-        <item index="3" class="java.lang.String" itemvalue="Python.creat_files" />
-        <item index="4" class="java.lang.String" itemvalue="Python.sendtext" />
+        <item index="0" class="java.lang.String" itemvalue="Python.encryption" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Jumble_letters" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Swap_vowels" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Remove_vowels" />
+        <item index="4" class="java.lang.String" itemvalue="Python.creat_files" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1491093533108</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Jumbled String">
+      <created>1491114398588</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1491114398588</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -541,7 +549,8 @@
     <MESSAGE value="Sample Tip calculater" />
     <MESSAGE value="text parsing" />
     <MESSAGE value="Automate Parsing and Renaming of Multiple Files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Automate Parsing and Renaming of Multiple Files" />
+    <MESSAGE value="Jumbled String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jumbled String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,6 +723,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String Operations/encryption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
